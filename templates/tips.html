@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Air Tips</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <header>
+        <h1>✅ Daily Clean Air Tips</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/tips">Tips</a>
+            <a href="/about">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Check what you did today</h2>
+            <form id="tips-form">
+                <label>
+                    <input type="checkbox"> Planted or watered a tree 🌳
+                </label><br>
+                <label>
+                    <input type="checkbox"> Used cycle or walked instead of car 🚲
+                </label><br>
+                <label>
+                    <input type="checkbox"> Saved electricity by turning off lights ⚡
+                </label><br>
+                <label>
+                    <input type="checkbox"> Did not burn trash/waste ♻️
+                </label><br>
+                <label>
+                    <input type="checkbox"> Spread awareness with friends 👨‍👩‍👧‍👦
+                </label><br>
+            </form>
+
+            <button type="button" onclick="showResult()">✅ Done for Today</button>
+
+            <p id="result"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made with ❤️ for NASA Space Apps Challenge</p>
+    </footer>
+</body>
+</html>
