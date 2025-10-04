@@ -1,0 +1,103 @@
+/* ========== Global Styles ========== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f3f9f6;
+    color: #222;
+}
+
+/* ========== Header ========== */
+header {
+    background-color: #2b9348;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ========== Main Section ========== */
+main {
+    padding: 25px;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    margin-top: 25px;
+}
+
+main h2 {
+    color: #2b9348;
+    border-bottom: 2px solid #2b9348;
+    padding-bottom: 5px;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main ul li {
+    margin: 10px 0;
+    background: #e7f7ea;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+/* ========== Button ========== */
+button {
+    background-color: #2b9348;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1e6f35;
+}
+
+/* ========== Footer ========== */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2b9348;
+    color: white;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 600px) {
+    main {
+        padding: 15px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+}
